@@ -1,6 +1,7 @@
 1.
-rm -rf /var/www/html/webdirectory/* 
-cp -r * /var/www/html/webdirectory/ 
+rmdir \s \q <directory>
+mkdir <directory>
+xcopy * <directory>/ \s \e \y
 
 5.
 DOCKERFILE
