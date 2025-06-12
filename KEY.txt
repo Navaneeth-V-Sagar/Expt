@@ -3,6 +3,9 @@ rmdir \s \q <directory>
 mkdir <directory>
 xcopy * <directory>/ \s \e \y
 
+rm -rf /var/www/html/webdirectory/*
+cp -r * /var/www/html/webdirectory/
+
 5.
 DOCKERFILE
 FROM httpd:2.4   
